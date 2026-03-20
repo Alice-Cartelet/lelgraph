@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F07B4D72E21038400660812 /* leleramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B4D62E21038400660812 /* leleramApp.swift */; };
+		2F07B4D92E21038400660812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B4D82E21038400660812 /* ContentView.swift */; };
+		2F07B4DB2E21038700660812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F07B4DA2E21038700660812 /* Assets.xcassets */; };
+		2F07B4DE2E21038700660812 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F07B4DD2E21038700660812 /* Preview Assets.xcassets */; };
+		2F07B4E82E21038700660812 /* leleramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B4E72E21038700660812 /* leleramTests.swift */; };
+		2F07B4F22E21038700660812 /* leleramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B4F12E21038700660812 /* leleramUITests.swift */; };
+		2F07B4F42E21038700660812 /* leleramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B4F32E21038700660812 /* leleramUITestsLaunchTests.swift */; };
+		2F07B5012E210FB700660812 /* kp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B5002E210FB700660812 /* kp.swift */; };
+		2F07B5032E24D86200660812 /* CryptoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B5022E24D86000660812 /* CryptoHelper.swift */; };
+		2F07B5052E24D8D100660812 /* ViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B5042E24D8D100660812 /* ViewerView.swift */; };
+		2F07B5072E24D94D00660812 /* ZoomableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B5062E24D94D00660812 /* ZoomableImageView.swift */; };
+		2F07B5092E24D9AE00660812 /* FullScreenViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B5082E24D9AE00660812 /* FullScreenViewer.swift */; };
+		2F07B50B2E24D9E500660812 /* VideoAutoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B50A2E24D9E400660812 /* VideoAutoPlayerView.swift */; };
+		2F07B50D2E24DA2100660812 /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B50C2E24DA2100660812 /* VideoPicker.swift */; };
+		2F07B50F2E24DA9B00660812 /* DocumentPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B50E2E24DA9B00660812 /* DocumentPickerView.swift */; };
+		2F07B5112E24DAD300660812 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07B5102E24DAD300660812 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F07B4E42E21038700660812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F07B4CB2E21038400660812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F07B4D22E21038400660812;
+			remoteInfo = leleram;
+		};
+		2F07B4EE2E21038700660812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F07B4CB2E21038400660812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F07B4D22E21038400660812;
+			remoteInfo = leleram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F07B4D32E21038400660812 /* Lelegraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lelegraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F07B4D62E21038400660812 /* leleramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leleramApp.swift; sourceTree = "<group>"; };
+		2F07B4D82E21038400660812 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F07B4DA2E21038700660812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F07B4DD2E21038700660812 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F07B4E32E21038700660812 /* leleramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leleramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F07B4E72E21038700660812 /* leleramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leleramTests.swift; sourceTree = "<group>"; };
+		2F07B4ED2E21038700660812 /* leleramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leleramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F07B4F12E21038700660812 /* leleramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leleramUITests.swift; sourceTree = "<group>"; };
+		2F07B4F32E21038700660812 /* leleramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leleramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F07B5002E210FB700660812 /* kp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kp.swift; sourceTree = "<group>"; };
+		2F07B5022E24D86000660812 /* CryptoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHelper.swift; sourceTree = "<group>"; };
+		2F07B5042E24D8D100660812 /* ViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewerView.swift; sourceTree = "<group>"; };
+		2F07B5062E24D94D00660812 /* ZoomableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomableImageView.swift; sourceTree = "<group>"; };
+		2F07B5082E24D9AE00660812 /* FullScreenViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewer.swift; sourceTree = "<group>"; };
+		2F07B50A2E24D9E400660812 /* VideoAutoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAutoPlayerView.swift; sourceTree = "<group>"; };
+		2F07B50C2E24DA2100660812 /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		2F07B50E2E24DA9B00660812 /* DocumentPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerView.swift; sourceTree = "<group>"; };
+		2F07B5102E24DAD300660812 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F07B4D02E21038400660812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F07B4E02E21038700660812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F07B4EA2E21038700660812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F07B4CA2E21038400660812 = {
+			isa = PBXGroup;
+			children = (
+				2F07B4D52E21038400660812 /* leleram */,
+				2F07B4E62E21038700660812 /* leleramTests */,
+				2F07B4F02E21038700660812 /* leleramUITests */,
+				2F07B4D42E21038400660812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F07B4D42E21038400660812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F07B4D32E21038400660812 /* Lelegraph.app */,
+				2F07B4E32E21038700660812 /* leleramTests.xctest */,
+				2F07B4ED2E21038700660812 /* leleramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F07B4D52E21038400660812 /* leleram */ = {
+			isa = PBXGroup;
+			children = (
+				2F07B4D62E21038400660812 /* leleramApp.swift */,
+				2F07B5002E210FB700660812 /* kp.swift */,
+				2F07B4D82E21038400660812 /* ContentView.swift */,
+				2F07B50E2E24DA9B00660812 /* DocumentPickerView.swift */,
+				2F07B5102E24DAD300660812 /* ImagePicker.swift */,
+				2F07B50A2E24D9E400660812 /* VideoAutoPlayerView.swift */,
+				2F07B50C2E24DA2100660812 /* VideoPicker.swift */,
+				2F07B5082E24D9AE00660812 /* FullScreenViewer.swift */,
+				2F07B5062E24D94D00660812 /* ZoomableImageView.swift */,
+				2F07B5042E24D8D100660812 /* ViewerView.swift */,
+				2F07B5022E24D86000660812 /* CryptoHelper.swift */,
+				2F07B4DA2E21038700660812 /* Assets.xcassets */,
+				2F07B4DC2E21038700660812 /* Preview Content */,
+			);
+			path = leleram;
+			sourceTree = "<group>";
+		};
+		2F07B4DC2E21038700660812 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F07B4DD2E21038700660812 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F07B4E62E21038700660812 /* leleramTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F07B4E72E21038700660812 /* leleramTests.swift */,
+			);
+			path = leleramTests;
+			sourceTree = "<group>";
+		};
+		2F07B4F02E21038700660812 /* leleramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F07B4F12E21038700660812 /* leleramUITests.swift */,
+				2F07B4F32E21038700660812 /* leleramUITestsLaunchTests.swift */,
+			);
+			path = leleramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F07B4D22E21038400660812 /* leleram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F07B4F72E21038700660812 /* Build configuration list for PBXNativeTarget "leleram" */;
+			buildPhases = (
+				2F07B4CF2E21038400660812 /* Sources */,
+				2F07B4D02E21038400660812 /* Frameworks */,
+				2F07B4D12E21038400660812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leleram;
+			productName = leleram;
+			productReference = 2F07B4D32E21038400660812 /* Lelegraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F07B4E22E21038700660812 /* leleramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F07B4FA2E21038700660812 /* Build configuration list for PBXNativeTarget "leleramTests" */;
+			buildPhases = (
+				2F07B4DF2E21038700660812 /* Sources */,
+				2F07B4E02E21038700660812 /* Frameworks */,
+				2F07B4E12E21038700660812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F07B4E52E21038700660812 /* PBXTargetDependency */,
+			);
+			name = leleramTests;
+			productName = leleramTests;
+			productReference = 2F07B4E32E21038700660812 /* leleramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F07B4EC2E21038700660812 /* leleramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F07B4FD2E21038800660812 /* Build configuration list for PBXNativeTarget "leleramUITests" */;
+			buildPhases = (
+				2F07B4E92E21038700660812 /* Sources */,
+				2F07B4EA2E21038700660812 /* Frameworks */,
+				2F07B4EB2E21038700660812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F07B4EF2E21038700660812 /* PBXTargetDependency */,
+			);
+			name = leleramUITests;
+			productName = leleramUITests;
+			productReference = 2F07B4ED2E21038700660812 /* leleramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F07B4CB2E21038400660812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2F07B4D22E21038400660812 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					2F07B4E22E21038700660812 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2F07B4D22E21038400660812;
+					};
+					2F07B4EC2E21038700660812 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2F07B4D22E21038400660812;
+					};
+				};
+			};
+			buildConfigurationList = 2F07B4CE2E21038400660812 /* Build configuration list for PBXProject "leleram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F07B4CA2E21038400660812;
+			productRefGroup = 2F07B4D42E21038400660812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F07B4D22E21038400660812 /* leleram */,
+				2F07B4E22E21038700660812 /* leleramTests */,
+				2F07B4EC2E21038700660812 /* leleramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F07B4D12E21038400660812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F07B4DE2E21038700660812 /* Preview Assets.xcassets in Resources */,
+				2F07B4DB2E21038700660812 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F07B4E12E21038700660812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F07B4EB2E21038700660812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F07B4CF2E21038400660812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F07B5052E24D8D100660812 /* ViewerView.swift in Sources */,
+				2F07B5072E24D94D00660812 /* ZoomableImageView.swift in Sources */,
+				2F07B5092E24D9AE00660812 /* FullScreenViewer.swift in Sources */,
+				2F07B4D92E21038400660812 /* ContentView.swift in Sources */,
+				2F07B5032E24D86200660812 /* CryptoHelper.swift in Sources */,
+				2F07B50F2E24DA9B00660812 /* DocumentPickerView.swift in Sources */,
+				2F07B50B2E24D9E500660812 /* VideoAutoPlayerView.swift in Sources */,
+				2F07B5012E210FB700660812 /* kp.swift in Sources */,
+				2F07B50D2E24DA2100660812 /* VideoPicker.swift in Sources */,
+				2F07B5112E24DAD300660812 /* ImagePicker.swift in Sources */,
+				2F07B4D72E21038400660812 /* leleramApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F07B4DF2E21038700660812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F07B4E82E21038700660812 /* leleramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F07B4E92E21038700660812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F07B4F22E21038700660812 /* leleramUITests.swift in Sources */,
+				2F07B4F42E21038700660812 /* leleramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F07B4E52E21038700660812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F07B4D22E21038400660812 /* leleram */;
+			targetProxy = 2F07B4E42E21038700660812 /* PBXContainerItemProxy */;
+		};
+		2F07B4EF2E21038700660812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F07B4D22E21038400660812 /* leleram */;
+			targetProxy = 2F07B4EE2E21038700660812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F07B4F52E21038700660812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F07B4F62E21038700660812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F07B4F82E21038700660812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"leleram/Preview Content\"";
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "应用需要保存图片到您的相册";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.lelegra.ph;
+				PRODUCT_NAME = Lelegraph;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F07B4F92E21038700660812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"leleram/Preview Content\"";
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "应用需要保存图片到您的相册";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.lelegra.ph;
+				PRODUCT_NAME = Lelegraph;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F07B4FB2E21038700660812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.lelegra.m.leleramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leleram.app/leleram";
+			};
+			name = Debug;
+		};
+		2F07B4FC2E21038700660812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.lelegra.m.leleramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leleram.app/leleram";
+			};
+			name = Release;
+		};
+		2F07B4FE2E21038800660812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.lelegra.m.leleramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leleram;
+			};
+			name = Debug;
+		};
+		2F07B4FF2E21038800660812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKQJJ9WRQ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alice.lelegra.m.leleramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leleram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F07B4CE2E21038400660812 /* Build configuration list for PBXProject "leleram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F07B4F52E21038700660812 /* Debug */,
+				2F07B4F62E21038700660812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F07B4F72E21038700660812 /* Build configuration list for PBXNativeTarget "leleram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F07B4F82E21038700660812 /* Debug */,
+				2F07B4F92E21038700660812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F07B4FA2E21038700660812 /* Build configuration list for PBXNativeTarget "leleramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F07B4FB2E21038700660812 /* Debug */,
+				2F07B4FC2E21038700660812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F07B4FD2E21038800660812 /* Build configuration list for PBXNativeTarget "leleramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F07B4FE2E21038800660812 /* Debug */,
+				2F07B4FF2E21038800660812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F07B4CB2E21038400660812 /* Project object */;
+}
